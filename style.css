@@ -13,9 +13,6 @@ p {
   font-size: 2rem;
 }
 
-.undercommons {
-  display: none;
-}
 
 @media screen and (orientation: landscape) {
   body {
