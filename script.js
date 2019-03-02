@@ -1,9 +1,7 @@
-var orientation = window.screen.orientation;
-console.log(window.screen.height);
-window.addEventListener('resize', function() {
-  console.log(window.screen.height);
-  console.log(window.screen.orientation);
-});
+// window.addEventListener('resize', function() {
+//   console.log(window.screen.height);
+//   console.log(window.screen.orientation);
+// });
 
 
 // Bind an event to window.orientationchange that, when the device is turned,
@@ -15,4 +13,4 @@ $( window ).on( "orientationchange", function( event ) {
 });
 
 // You can also manually force this event to fire.
-$( window ).orientationchange();
+// $( window ).orientationchange();

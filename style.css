@@ -6,6 +6,10 @@ html {
 }
 
 body {
+  background-color: ghostwhite;
+}
+
+.container {
   padding: 1rem;
 }
 
@@ -13,9 +17,13 @@ p {
   font-size: 2rem;
 }
 
+.undercommons {
+  display: none;
+}
 
 @media screen and (orientation: landscape) {
   body {
-    background-color: blue;
+    background-color: #3F51B5;
+    color: mediumvioletred;
   }
 }
