@@ -12,3 +12,9 @@ body {
 p {
   font-size: 2rem;
 }
+
+@media screen and (orientation: landscape) {
+  body {
+    background-color: blue;
+  }
+}
