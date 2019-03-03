@@ -29,13 +29,23 @@ p.openMessage {
   margin: 0;
   border-bottom: 1px dashed ghostwhite;
   color: ghostwhite;
-  font-size: 9em;
+  font-size: 9rem;
+  text-align: center;
 }
 
 .undercommons p {
   font-family: 'Lekton', monospace;
 }
 
+.undercommons h3 {
+  font-size: 2.5rem;
+  font-family: 'Lekton', monospace;
+  font-style: italic;
+}
+
+a {
+  color: mediumvioletred;
+}
 canvas {
   position: absolute;
   top: 0;
@@ -52,3 +62,10 @@ div.ui-loader {
     color: mediumvioletred;
   }
 } */
+
+/* #64BB98
+#E13965
+#EDAD6F
+#7964A9
+#E9B8CB
+#E7E3D8 */
