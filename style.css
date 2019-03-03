@@ -17,13 +17,38 @@ p {
   font-size: 2rem;
 }
 
+p.openMessage {
+  margin-top: 0;
+}
+
 .undercommons {
   display: none;
 }
 
-@media screen and (orientation: landscape) {
+.undercommons h2 {
+  margin: 0;
+  border-bottom: 1px dashed ghostwhite;
+  color: ghostwhite;
+  font-size: 9em;
+}
+
+.undercommons p {
+  font-family: 'Lekton', monospace;
+}
+
+canvas {
+  position: absolute;
+  top: 0;
+  z-index: -1;
+}
+
+div.ui-loader {
+  display: none;
+}
+
+/* @media screen and (orientation: landscape) {
   body {
     background-color: #3F51B5;
     color: mediumvioletred;
   }
-}
+} */
